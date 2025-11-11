@@ -1,5 +1,6 @@
 # My-Python-Learning-Journey
 For anyone who are reading this description, you should notice that this is a project repository that use for my python HOMEWORK.
+
 **对于任何正在阅读这条描述的各位，请注意这是一个为作业而创建的Github仓库，接下来的描述都是中文描述**
 
 # 项目介绍
@@ -43,6 +44,7 @@ print(final_result)
 
 ## 代码说明
 org_score是只能存储数字（无论什么类型，int，float什么都可以）的列表。存储数量不限。这是输入数据的地方。
+
 对于以下代码：
 
 ```py
@@ -55,6 +57,7 @@ score=org_score
 
 ```
 其实就是先输出最大值和最小值，然后利用list的.remove方法删除最大值和最小值，再创建清理后的列表score，以作区分。
+
 最后在输出时，首先创建了一个空列表final_result。再使用for循环，根据以下条件进行ABC三个等级的判定：
 
 1. 如果值与平均值之差的绝对值小于1，评定为等级A
@@ -62,7 +65,9 @@ score=org_score
 3. 如果值与平均值之差的绝对值大于等于1.5，评定为等级C
 
 *其实这个判断条件随便改都行*
+
 在判断出结果后，利用列表的.append方法直接添加到score列表末尾
+
 最后简单利用print函数输出，就都结束了！
 
 # 学习心得与规划
